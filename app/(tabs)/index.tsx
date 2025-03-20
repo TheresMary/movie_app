@@ -46,7 +46,7 @@ export default function Index() {
         {moviesLoading ? (
           <ActivityIndicator
             size="large"
-            color="#00ff00"
+            color="#9CA4AB"
             className="mt-10 self-center"
           />
         ) : moviesError ? (
