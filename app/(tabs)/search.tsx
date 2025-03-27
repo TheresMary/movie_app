@@ -50,7 +50,7 @@ const Search = () => {
       <FlatList
         data={movies}
         renderItem={({ item }) => <MovieCard {...item} />}
-        keyExtractor={(item) => item.id.toString}
+        keyExtractor={(item) => item.id}
         numColumns={3}
         columnWrapperStyle={{
           justifyContent: "flex-start",

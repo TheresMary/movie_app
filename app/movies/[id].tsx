@@ -30,7 +30,7 @@ const MovieDetails = () => {
             onPress={() => router.back()}
           >
             <Image
-              source={icons.save}
+              source={icons.call}
               className="!size-5"
               resizeMode="stretch"
             />

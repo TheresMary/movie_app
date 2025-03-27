@@ -15,7 +15,8 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/logo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.theres.movieapp"
     },
     "web": {
       "bundler": "metro",
@@ -32,10 +33,26 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "@react-native-voice/voice",
+        {
+          "microphonePermission": "Allow to access your microphone."
+        }
       ]
+
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "7496fa42-6537-4068-83e5-1a2dd1531978"
+      }
+    },
+    "owner": "theres"
   }
 }
